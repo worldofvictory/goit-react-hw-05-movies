@@ -1,0 +1,9 @@
+
+        .cast {
+            list-style: none;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 30px;
+                margin-top: 40px;
+                justify-content: space-evenly;
+    }
