@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { IoIosArrowForward } from "react-icons/io";
 
 
@@ -9,7 +9,7 @@ function MoviesListItem ({ title, id }) {
     return (
         <li>
             <IoIosArrowForward />
-            <navLink to={`/movies/${id}`} state={{ from: location }}>{title}</navLink> 
+            <NavLink to={`/movies/${id}`} state={{ from: location }}>{title}</NavLink> 
         </li>
     )
 }
